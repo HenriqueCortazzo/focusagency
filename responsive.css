@@ -1,0 +1,160 @@
+@media screen and (max-width:999px) {
+    .menu{
+        width: 100%;    
+        margin-top: 30px;
+        /* border: 2px slateblue solid; */
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: -30px;
+    }
+
+    #botao{
+        display: none;
+    }
+
+    .navbar{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        margin-top: 40px;
+    }
+
+    .logo{
+      margin: 0%;
+      text-align: center;
+    }
+
+    .logo h2{
+     font-size:44px ;
+    }
+
+    .header{
+        padding-top: 50px;
+    }
+
+    .headline{
+        flex: 100%;
+        margin: 5%;
+        text-align: center;
+    }
+
+    .headline p{
+        text-align: center;
+    }
+    .headline-img{
+        flex: 100%;
+        margin: 5%;
+        text-align: center;
+        /* border: 2px solid green; */
+    }
+  
+
+    .wpp{
+        display: none;
+    }
+
+    .servicos{
+        /* border: 3px solid rgb(20, 173, 53); */
+            display: inline-block;
+            margin-top: 8%;
+            margin-left: 1%;
+    }
+
+    .card{
+        width: 100%;
+
+    }
+
+    .card-text h3{
+        /* border: 2px solid red; */
+        text-align: center;
+        
+        
+
+    }
+
+    section{
+        margin-top: 550px;
+    }
+}
+
+@media screen and (max-width:1750px) {
+    .card-text h3{
+        /* border: 1px solid rebeccapurple; */
+        white-space: nowrap;
+        max-width: 360px;
+    }
+
+    .servicos{
+        margin-top: 30px;
+        /* border: 1px solid saddlebrown; */
+    }
+
+    
+}
+
+@media screen and (min-width:1000px) and (max-width:1118px) {
+    .exceto{
+        margin-left: -17px;
+    }
+
+    .exceto1{
+        margin-left: -22px;
+    }
+}
+@media screen and (min-width:506px) and (max-width:999px) {
+    .card-text h3{
+        max-width: 750px;
+    }
+}
+
+@media screen and (min-width:300px) and  (max-width:475px) {
+   
+    
+    section{
+        /* border:1px solid green; */
+        margin-top: 370px;
+    }
+}
+
+@media screen and (max-width:490px) {
+    footer{
+        width: 100%;
+        height: 400px;
+    }
+
+    section{
+        margin-left: 1.4%;
+    }
+     }
+    
+
+
+
+@media screen and (max-width:359px) {
+
+    .menu{
+        /* border: 2px solid goldenrod; */
+        width: 100%;
+    }
+    .menu a{
+        font-size: 16px;
+    }
+
+    footer{
+        width: 100%;
+    }
+    section{
+        margin-left: 1.4%;
+    }
+}
+
+@media screen and (max-width:320px) {
+
+    section{
+        margin-left: -3%;
+    }
+    
+}
